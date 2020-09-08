@@ -484,6 +484,7 @@ p {
 	height: 300px;
 	overflow: hidden;
 	position: relative;
+	border: .15vw solid #44505e;
 }
 #projects .project-img:after {
 	content: '';
