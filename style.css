@@ -16,7 +16,7 @@
 .landingScreen
 {
 	text-align: center;
-	margin-left: 15.5%;
+	margin-left: 2%;
 	margin-top: 20%;
 	position: absolute;
 	color: #fff;
@@ -32,9 +32,11 @@
 	white-space: nowrap;
 	font-family: sans-serif;
 	border-right: .5vw solid crimson;
-	font-size: 6.5vw;
+	font-size: 8.5vw;
 	font-weight: 100;
 }
+
+
 @keyframes type{
 	0% {
 		width: 0ch;
@@ -47,7 +49,7 @@
 
 .social-menu h1 {
     font-family: sans-serif;
-    font-size: 4.75vw;
+    font-size: 7vw;
     font-size-adjust: 100;
 }
 .social-menu ul {
@@ -66,8 +68,8 @@
 }
 .social-menu ul li .fa {
     color: #000000;
-    font-size: 4.5vw;
-    line-height: 6.5vw;
+    font-size: 7vw;
+    line-height: 8vw;
     transition: .5s;
 }
 .social-menu ul li .fa:hover {
@@ -76,8 +78,8 @@
 .social-menu ul li a {
     position: relative;
     display: block;
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 8.5vw;
+    height: 8.5vw;
     border-radius: 50%;
     background-color: white;
     text-align: center;
@@ -669,6 +671,53 @@ p {
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
+	.landingScreen
+	{
+		text-align: center;
+		margin-left: 27%;
+		margin-top: 20%;
+		position: absolute;
+		color: #fff;
+		font-family: sans-serif;
+	}
+
+	.name h1
+	{
+		text-align: center;
+		left: 50%;
+		animation: type 2s steps(30);
+		overflow: hidden;
+		white-space: nowrap;
+		font-family: sans-serif;
+		border-right: .5vw solid crimson;
+		font-size: 4vw;
+		font-weight: 100;
+	}
+	.social-menu h1 {
+	    font-family: sans-serif;
+	    font-size: 3vw;
+	    font-size-adjust: 100;
+	}
+	.social-menu ul li .fa {
+	    color: #000000;
+	    font-size: 3vw;
+	    line-height: 4vw;
+	    transition: .5s;
+	}
+	.social-menu ul li a {
+	    position: relative;
+	    display: block;
+	    width: 4vw;
+	    height: 4vw;
+	    border-radius: 50%;
+	    background-color: white;
+	    text-align: center;
+	    transition: 0.5s;
+	    transform: translate(0,0vw);
+	    box-shadow: 0vw 2vw 4vw rgba(0, 0, 0, 0.5);
+	}
+
+
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -774,6 +823,52 @@ p {
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
+	.landingScreen
+	{
+		text-align: center;
+		margin-left: 27%;
+		margin-top: 20%;
+		position: absolute;
+		color: #fff;
+		font-family: sans-serif;
+	}
+
+	.name h1
+	{
+		text-align: center;
+		left: 50%;
+		animation: type 2s steps(30);
+		overflow: hidden;
+		white-space: nowrap;
+		font-family: sans-serif;
+		border-right: .5vw solid crimson;
+		font-size: 4vw;
+		font-weight: 100;
+	}
+	.social-menu h1 {
+	    font-family: sans-serif;
+	    font-size: 3vw;
+	    font-size-adjust: 100;
+	}
+	.social-menu ul li .fa {
+	    color: #000000;
+	    font-size: 3vw;
+	    line-height: 4vw;
+	    transition: .5s;
+	}
+	.social-menu ul li a {
+	    position: relative;
+	    display: block;
+	    width: 4vw;
+	    height: 4vw;
+	    border-radius: 50%;
+	    background-color: white;
+	    text-align: center;
+	    transition: 0.5s;
+	    transform: translate(0,0vw);
+	    box-shadow: 0vw 2vw 4vw rgba(0, 0, 0, 0.5);
+	}
+
 	/* header */
 	#header .hamburger {
 		display: none;
